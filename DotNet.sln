@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Socket", "Socket", "{7024BED5-E9BB-4BAE-992D-2849CC967F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket.ChatClient", "Socket\Socket.ChatClient\Socket.ChatClient.csproj", "{B1EC9634-6DA2-42C8-9875-01AD89A827DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket.ChatSever", "Socket\Socket.ChatSever\Socket.ChatSever.csproj", "{1A22E1A4-970A-4C3D-9FFD-55207EA7BD4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket.ChatProtocol", "Socket\Socket.ChatProtocol\Socket.ChatProtocol.csproj", "{59D7CB69-A3BB-48CB-B89E-9A1D4BB1FD1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1EC9634-6DA2-42C8-9875-01AD89A827DE} = {7024BED5-E9BB-4BAE-992D-2849CC967F36}
+		{1A22E1A4-970A-4C3D-9FFD-55207EA7BD4D} = {7024BED5-E9BB-4BAE-992D-2849CC967F36}
+		{59D7CB69-A3BB-48CB-B89E-9A1D4BB1FD1B} = {7024BED5-E9BB-4BAE-992D-2849CC967F36}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1EC9634-6DA2-42C8-9875-01AD89A827DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EC9634-6DA2-42C8-9875-01AD89A827DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EC9634-6DA2-42C8-9875-01AD89A827DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EC9634-6DA2-42C8-9875-01AD89A827DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A22E1A4-970A-4C3D-9FFD-55207EA7BD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A22E1A4-970A-4C3D-9FFD-55207EA7BD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A22E1A4-970A-4C3D-9FFD-55207EA7BD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A22E1A4-970A-4C3D-9FFD-55207EA7BD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D7CB69-A3BB-48CB-B89E-9A1D4BB1FD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D7CB69-A3BB-48CB-B89E-9A1D4BB1FD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D7CB69-A3BB-48CB-B89E-9A1D4BB1FD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D7CB69-A3BB-48CB-B89E-9A1D4BB1FD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
